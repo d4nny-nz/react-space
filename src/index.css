@@ -21,3 +21,28 @@ body,
     @apply hover:scale-90 transition duration-200;
   }
 }
+
+@theme {
+  --font-secondary: "Bellefair", sans-serif;
+}
+
+@keyframes myPing {
+  0%,
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+  50% {
+    scale: 0.8;
+    opacity: 0.8;
+  }
+}
+
+.animate-me:hover{
+  animation-name: myPing;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+}

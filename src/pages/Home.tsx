@@ -18,7 +18,7 @@ const Home = () => {
           </h2>
 
           {/* ASk about the h1 */}
-          <h1 className="bellefair text-[clamp(3rem,9vw,9rem)] leading-none">
+          <h1 className=" font-secondary text-[clamp(3rem,9vw,9rem)] leading-none">
             SPACE
           </h1>
           <p className="mt-6 text-slate-300 text-sm md:text-base max-w-md">
@@ -33,7 +33,7 @@ const Home = () => {
           <Link to={"/destination"}>
             <button
               aria-label="Explore"
-              className="w-40 h-40 md:w-56 md:h-56 rounded-full bg-white flex items-center justify-center text-black font-medium tracking-widest shadow-lg hover:scale-105 transition-transform"
+              className="w-40 h-40 md:w-56 md:h-56 rounded-full bg-white flex items-center justify-center text-black font-medium tracking-widest shadow-lg hover:scale-105 transition-transform animate-me "
             >
               EXPLORE
             </button>
