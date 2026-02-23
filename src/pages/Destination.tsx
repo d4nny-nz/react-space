@@ -4,9 +4,9 @@ import Header from "../components/Header";
 const Destination = () => {
   return (
     <section
-      className=" min-h-screen overflow-y-auto text-white"
+      className=" min-h-screen overflow-y-auto text-white bg-cover"
       style={{
-        backgroundImage: "url(/background-destination-desktop.jpg)",
+        backgroundImage: "url('/background-destination-desktop.jpg')",
       }}
     >
       <Header />

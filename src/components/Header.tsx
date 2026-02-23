@@ -23,7 +23,7 @@ const Header = () => {
           className={({ isActive }) =>
             isActive ? "link-active" : "link-inactive"
           }
-        >
+        > 
           01 DESTINATION
         </NavLink>
 

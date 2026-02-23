@@ -5,9 +5,9 @@ import Header from "../components/Header";
 const Home = () => {
   return (
     <section
-      className=" min-h-screen"
+      className=" min-h-screen bg-cover"
       style={{
-        backgroundImage: "url(/background-home-desktop.jpg)",
+        backgroundImage: "url('/background-home-desktop.jpg')",
       }}
     >
       <Header />
